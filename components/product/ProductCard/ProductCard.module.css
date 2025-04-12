@@ -1,0 +1,32 @@
+.productImgWrapper {
+  position: relative;
+}
+
+.productImgWrapper img {
+  object-fit: contain;
+  background-color: #dddddd;
+}
+
+.productInfo {
+  padding: 1rem;
+}
+
+.productName {
+  font-size: 1.7rem;
+  color: var(--color-text-primary);
+}
+
+.productPrice {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.wishlistButtonContainer {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
